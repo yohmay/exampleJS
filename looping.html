@@ -1,0 +1,11 @@
+<script>
+let numero = prompt("Qual número você gostaria de multiplicar");
+let multiplicador =prompt("Até qual número gostaria de multiplicar");
+
+function CalcularTabuada(numero,multiplicador) {
+    for (let index = 0; index <= multiplicador; index++){
+        document.write(numero + "x" + index + "=" + (numero * index) + "<br>");
+}   
+}
+CalcularTabuada(numero,multiplicador);
+</script>
