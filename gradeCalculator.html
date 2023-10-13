@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<h1>Grade Calculator</h1>
+<script>
+    // Inputs and Outputs
+    // console.log("test for HTML");
+
+    let name = prompt("Enter your name for support");
+    alert("Welcome to our system, Mr./Ms. " + name);
+
+    let Grade1 = prompt("Enter your first grade");
+    let Grade2 = prompt("Enter your second grade");
+    let Grade3 = prompt("Enter your third grade");
+    let Grade4 = prompt("Enter your fourth grade");
+
+    let Sum = (parseFloat(Grade1) + parseFloat(Grade2) + parseFloat(Grade3) + parseFloat(Grade4));
+    let Average = Sum / 4;
+
+    document.write("The sum of your grades is: " + Sum + "<br>");
+    document.write("Your average is: " + Average + "<br>");
+
+    if (Average < 6) {
+        document.write("Study more to pass!");
+    } else {
+        document.write("Congratulations, you passed!!");
+    }
+</script>
+
+</html>
