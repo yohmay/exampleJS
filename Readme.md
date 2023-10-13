@@ -1,2 +1,4 @@
-        
-        Projetos práticos do Curso de Lógica de Programação com foco na linguagem JavaScript.
+
+
+        This repository contains two examples of projects developed with a focus on the initial concept of programming logic, 
+        using HTML and JavaScript.
